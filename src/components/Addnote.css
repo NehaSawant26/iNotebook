@@ -1,0 +1,43 @@
+.container{
+    position:relative;
+    width: 800px;
+    height: 100%;
+    background-color: rgb(46, 43, 101);
+    border-radius: 15px ;
+    color: #ffff;     
+}
+
+.container .box{
+    width: 100%;
+    padding: 40px;
+}
+
+form h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+.my-3 .Icon1{
+    position: absolute;
+    color: black;
+    right: 60px ;
+    top: 29% ;
+    font-size: 22px;    
+}
+
+.mb-3 .Icon2{
+    position: absolute;
+    color: black;
+    right: 60px ;
+    top: 45% ;
+    font-size: 22px;       
+} 
+
+.mb-3 .Icon3{
+    position: absolute;
+    color: black;
+    right: 60px ;
+    top: 71% ;
+    font-size: 22px;   
+} 
+

@@ -1,15 +1,18 @@
 .container{
     position:relative;
-    width: 800px;
-    height: 100%;
-    background-color: rgb(46, 43, 101);
+    width: 800px; 
     border-radius: 15px ;
-    color: #ffff;     
+    color: #ffff;  
+    top : 20px;   
 }
 
 .container .box{
     width: 100%;
     padding: 40px;
+}
+.set{
+    padding: 40px;
+    background-color: rgb(43 43 57);
 }
 
 form h2{
@@ -20,23 +23,23 @@ form h2{
 .my-3 .Icon1{
     position: absolute;
     color: black;
-    right: 60px ;
-    top: 29% ;
+    right: 65px ;
+    top: 30% ;
     font-size: 22px;    
 }
 
 .mb-3 .Icon2{
     position: absolute;
     color: black;
-    right: 60px ;
-    top: 45% ;
+    right: 65px ;
+    top: 46% ;
     font-size: 22px;       
 } 
 
 .mb-3 .Icon3{
     position: absolute;
     color: black;
-    right: 60px ;
+    right: 65px ;
     top: 71% ;
     font-size: 22px;   
 } 

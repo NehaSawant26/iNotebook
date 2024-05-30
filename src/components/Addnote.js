@@ -29,7 +29,7 @@ const Addnote = (props) => {
         <h2>Add a note</h2>
           <div className=" my-3 ">
             <label htmlFor="title" className="title" style={{fontSize: "20px"}}>Title</label>
-            <input type="text" className="form-control" id="title" name="title" value={note.title} onChange={onChange} minLength={5} required />
+            <textarea type="text" className="form-control" id="title" name="title" rows="1" value={note.title} onChange={onChange} minLength={5} required />
             <TitleIcon className="Icon1"/>
 
           </div>

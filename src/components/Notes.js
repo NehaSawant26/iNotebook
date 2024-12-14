@@ -90,9 +90,9 @@ const onChange =(e)=>{
         </div>
       </div>
 
-      <div className="row my-3"   >
+      <div className="row my-5"   >
 
-        <h2>Your note</h2>
+        <h2>Your notes</h2>
         <div className="container mx-2">
         {notes.length ===0 && 'No notes to display'}
         </div>

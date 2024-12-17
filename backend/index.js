@@ -5,7 +5,13 @@ var cors = require('cors')
 
 const app = express()
 const port = 5000
-app.use(cors())
+app.use(cors(
+  {
+    origin : ["https://i-notebook-frontend-xi-blue.vercel.app/login"],
+    methods : ["POST", "GET"],
+    credentials : true
+  }
+))
 app.use(express.json())
 
 app.use('/api/auth', require('./routes/auth'))

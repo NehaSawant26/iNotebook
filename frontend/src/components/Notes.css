@@ -1,0 +1,31 @@
+.modal-dialog{
+    color:black;
+}
+.my-2 .icon1{
+    position:absolute;
+    right: 25px;
+    top: 21% ;
+    translate: 0 -50%;
+    font-size: 22px;
+
+} 
+.my-2 .icon2{
+    position:absolute;
+    right: 25px;
+    top: 45% ;
+    translate: 0 -50%;
+    font-size: 22px;
+
+} 
+.my-2 .icon3{
+    position:absolute;
+    right: 25px;
+    top: 68% ;
+    translate: 0 -50%;
+    font-size: 22px;
+
+} 
+.container{
+   display: flex;
+   
+}

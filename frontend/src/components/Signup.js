@@ -16,7 +16,8 @@ const Signup = (props) => {
       e.preventDefault(); 
 
       // CALL API
-      const response = await fetch(`${host}/api/auth/createuser`, {
+      const response = await fetch("i-notebook-sage-five.vercel.app
+", {
         method: "POST", 
       
         headers: {
